@@ -1,0 +1,60 @@
+body {
+        padding:0px;
+        height:100%;
+        background-color: #333333 !important;
+    }
+    #wrapper{
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 100%;
+    }
+    .menu{
+    }
+    #navContainer{
+        width: 90%;
+    }
+
+    .page {
+        min-height:100%;
+        position:relative;
+    }
+
+    .header {
+        padding:10px;
+        width:100%;
+        text-align:center;
+    }
+
+    .content {
+            padding:10px;
+            padding-bottom:20px; /* Height of the footer element */
+            /*overflow:scroll;*/
+    }
+
+    .body {
+        margin:50px 10px 0px 250px;
+        height: 100%;
+        margin-bottom: 10em;
+    }
+
+    .footer {
+        clear:both;
+        position:absolute;
+        bottom:0;
+        left:0;
+        text-align:center;
+        width:100%;
+        height:20px;
+    }
+    form input{
+        max-width: 10em;
+    }
+    label{
+        color: #000000;
+    }
+    
+    .tab-pane:not(.active) {
+        display: none;
+    }
