@@ -12,7 +12,7 @@ webapp/src/main/resources/application.properties
 
 Create database with a name and either use root or create user to access that database.
 In the example at the application.properties the database name, user and password are all the same:
-www2015
+www2016
 
 
 You need to install mysql. If you install XAMPP to windows, it will install MySQL.
@@ -26,5 +26,3 @@ mvn clean package tomcat7:run
 
 Open in browser
 http://localhost:8080
-
-
