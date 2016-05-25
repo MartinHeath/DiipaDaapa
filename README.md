@@ -2,7 +2,8 @@ spring-webapp
 =============
 
 Spring web app for www-programming course
-
+both app and reamde use the following as a base, Original content will come soon:
+https://github.com/wwwprogramming/spring-webapp
 
 
 INSTALLATION
