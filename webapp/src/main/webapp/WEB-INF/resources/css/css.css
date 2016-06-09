@@ -1,4 +1,7 @@
-body {
+html{
+    height:100%
+}
+    body {
         padding:0px;
         height:100%;
         background-color: #333333 !important;
@@ -37,6 +40,7 @@ body {
         margin:50px 10px 0px 250px;
         height: 100%;
         margin-bottom: 10em;
+        overflow:auto;
     }
 
     .footer {

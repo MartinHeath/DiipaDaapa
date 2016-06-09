@@ -21,7 +21,7 @@
                     <a href="${accountUrl}"><spring:message code="header.menu.account" text="Account" /></a>
                 </li>
                 <li>
-                    <spring:url value="/j_spring_security_logout" var="logoutUrl" htmlEscape="true"/>
+                    <spring:url value="/logout" var="logoutUrl" htmlEscape="true"/>
                     <a href="${logoutUrl}"><spring:message code="header.menu.logout" text="logout" /></a>
                 </li>
                 <li>
@@ -68,6 +68,11 @@
                 <li>
                     <spring:url value="/events/home" var="eUrl" htmlEscape="true"/>
                     <a href="${eUrl}"><spring:message code="header.menu.events" text="Events" /></a>
+                </li>
+                
+                <li>
+                    <spring:url value="/system/home" var="sysUrl" htmlEscape="true"/>
+                    <a href="${sysUrl}"><spring:message code="header.menu.system" text="System" /></a>
                 </li>
 
             </ul>

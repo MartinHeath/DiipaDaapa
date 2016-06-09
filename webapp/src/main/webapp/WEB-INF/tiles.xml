@@ -60,6 +60,10 @@ https://tiles.apache.org/framework/tutorial/advanced/nesting-extending.html
     <definition name="/events/*"  extends="base.template1">
         <put-attribute name="bodyTemplate" value="/WEB-INF/jsp/event/{1}.jsp" />
     </definition>
+    
+    <definition name="/system/*"  extends="base.template1">
+        <put-attribute name="bodyTemplate" value="/WEB-INF/jsp/system/{1}.jsp" />
+    </definition>
 
     <definition name="/slider"  extends="base.template1">
         <put-attribute name="bodyTemplate" value="/WEB-INF/jsp/slider/slider.jsp" />

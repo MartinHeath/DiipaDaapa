@@ -19,7 +19,6 @@
 
         <tr><td>Muokattu </td><td><joda:format pattern="dd.MM.yyyy" value="${currentUser.modifiedOn}" />.</td></tr>
 
-
     </table>
 
 </div>

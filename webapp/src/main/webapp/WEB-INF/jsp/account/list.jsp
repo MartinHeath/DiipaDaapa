@@ -1,6 +1,6 @@
 <%@ include file="../../init.jspf" %>
 
-<h1>List of oll database users</h1>
+<h1>List of all database users</h1>
 
 <table>
 <tr><th>Id</th><th>username</th><th>role</th><th>New role</th></tr>
